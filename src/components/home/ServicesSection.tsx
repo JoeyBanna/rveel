@@ -17,7 +17,7 @@ const services = [
   {
     icon: <LineChart size={24} />,
     title: 'Payment Gateway',
-    description: "At Rveell, we’re building secure, modern fintech solutions to power seamless payments and smarter financial experiences. Our developer-friendly APIs make it easy to integrate payment gateways, manage digital wallets, and scale financial operations with speed and confidence.",
+    description: "At Rveel, we’re building secure, modern fintech solutions to power seamless payments and smarter financial experiences. Our developer-friendly APIs make it easy to integrate payment gateways, manage digital wallets, and scale financial operations with speed and confidence.",
   },
   {
     icon: <Share2 size={24} />,

@@ -27,16 +27,20 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       
       if (systemPreference) {
         root.classList.add('dark');
+        root.style.backgroundColor = ''; // Reset to default for dark mode
       } else {
         root.classList.remove('dark');
+        root.style.backgroundColor = '#A7A69E'; // Light mode background
       }
     } else {
       setIsDarkMode(theme === 'dark');
       
       if (theme === 'dark') {
         root.classList.add('dark');
+        root.style.backgroundColor = ''; // Reset to default for dark mode
       } else {
         root.classList.remove('dark');
+        root.style.backgroundColor = '#A7A69E'; // Light mode background
       }
     }
     
@@ -52,8 +56,10 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
         
         if (mediaQuery.matches) {
           document.documentElement.classList.add('dark');
+          document.documentElement.style.backgroundColor = ''; // Reset to default for dark mode
         } else {
           document.documentElement.classList.remove('dark');
+          document.documentElement.style.backgroundColor = '#A7A69E'; // Light mode background
         }
       }
     };
