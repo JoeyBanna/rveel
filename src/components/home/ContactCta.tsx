@@ -28,7 +28,7 @@ export function ContactCta() {
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <LinkButton 
               to="/contact" 
-              className="bg-white text-primary-600 hover:bg-gray-100"
+              className="bg-black text-primary-600 hover:bg-gray-100"
               size="lg"
             >
               Contact Us

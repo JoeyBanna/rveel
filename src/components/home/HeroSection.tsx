@@ -16,7 +16,7 @@ export function HeroSection() {
 
   const imageSrc = theme === 'dark' 
     ? '/src/images/rveel_wbg.png' // Dark mode image
-    : '/src/images/rveel_bbg.png'; // Light mode image
+    : '/src/images/rveel_bg.png'; // Light mode image
   return (
     <section className="pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden bg-gradient-to-b from-white to-gray-50 dark:from-dark-900 dark:to-dark-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -92,17 +92,7 @@ export function HeroSection() {
         </div>
       </div>
       
-      {/* Hero Wave Pattern */}
-      <div className="absolute bottom-0 left-0 right-0 h-24 bg-white dark:bg-dark-900">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="w-full h-full transform translate-y-1">
-          <path 
-            fill="currentColor" 
-            fillOpacity="1" 
-            className="text-gray-50 dark:text-dark-800"
-            d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,224C672,245,768,267,864,261.3C960,256,1056,224,1152,224C1248,224,1344,256,1392,272L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-          ></path>
-        </svg>
-      </div>
+   
     </section>
   );
 }

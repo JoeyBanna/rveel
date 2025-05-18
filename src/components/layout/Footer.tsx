@@ -124,12 +124,12 @@ export function Footer() {
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-gray-400 mt-0.5 flex-shrink-0" />
                 <span className="text-gray-600 dark:text-gray-400">
-                  123 Innovation Drive, San Francisco, CA 94107
+                  Accra-Ghana
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={18} className="text-gray-400 flex-shrink-0" />
-                <span className="text-gray-600 dark:text-gray-400">+1 (555) 123-4567</span>
+                <span className="text-gray-600 dark:text-gray-400">+233-30223686</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={18} className="text-gray-400 flex-shrink-0" />
