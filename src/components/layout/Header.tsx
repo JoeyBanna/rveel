@@ -32,8 +32,8 @@ export function Header() {
     const { theme } = themeContext;
   
     const imageSrc = theme === 'dark' 
-      ? '/src/images/rveel_wbg.png' // Dark mode image
-      : '/src/images/rveel_bbg.png'; // Light mode image
+      ? '/public/images/rveel_wbg.png' // Dark mode image
+      : '/public/images/rveel_bbg.png'; // Light mode image
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
