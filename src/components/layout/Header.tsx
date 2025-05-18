@@ -39,7 +39,7 @@ export function Header() {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
-
+ 
   useEffect(() => {
     const handleScroll = () => {
       const isScrolled = window.scrollY > 20;
