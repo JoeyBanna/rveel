@@ -21,8 +21,8 @@ export function Footer() {
       const { theme } = themeContext;
     
       const imageSrc = theme === 'dark' 
-        ? 'public/images/rveel_wbg.png' // Dark mode image
-        : 'public/images/rveel_bbg.png'; // Light mode image
+        ? '/images/rveel_wbg.png' // Dark mode image
+        : '/images/rveel_bbg.png'; // Light mode image
   const currentYear = new Date().getFullYear();
 
   return (

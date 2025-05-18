@@ -15,8 +15,8 @@ export function HeroSection() {
   const { theme } = themeContext;
 
   const imageSrc = theme === 'dark' 
-    ? 'public/images/rveel_wbg.png' // Dark mode image
-    : 'public/images/rveel_bbg.png'; // Light mode image
+    ? '/images/rveel_wbg.png' // Dark mode image
+    : '/images/rveel_bbg.png'; // Light mode image
   return (
     <section className="pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden bg-gradient-to-b from-white to-gray-50 dark:from-dark-900 dark:to-dark-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
